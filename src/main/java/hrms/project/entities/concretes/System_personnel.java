@@ -49,6 +49,10 @@ public class System_personnel {
         this.national_identity = national_identity;
     }
 
+    public System_personnel() {
 
-    public void System_personnel(){}
+    }
+
+
+
 }

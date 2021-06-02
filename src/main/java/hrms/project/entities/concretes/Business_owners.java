@@ -41,6 +41,10 @@ public class Business_owners {
       this.e_mail = e_mail;
    }
 
+   public Business_owners() {
 
-   public void Business_owners(){}
+   }
+
+
+
 }

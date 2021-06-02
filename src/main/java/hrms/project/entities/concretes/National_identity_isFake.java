@@ -25,7 +25,10 @@ public class National_identity_isFake {
         this.is_Fake = is_Fake;
     }
 
+    public National_identity_isFake() {
 
-    public void National_identity_isFake() {
     }
+
+
+
 }

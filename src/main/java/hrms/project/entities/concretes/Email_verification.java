@@ -21,6 +21,10 @@ public class Email_verification {
         this.e_mail_address = e_mail_address;
     }
 
+    public Email_verification() {
 
-    public void Email_verification(){}
+    }
+
+
+
 }

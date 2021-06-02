@@ -25,6 +25,10 @@ public class Check_email_isFake {
         this.is_Fake = is_Fake;
     }
 
+    public Check_email_isFake() {
 
-    public void Check_email_isFake(){}
+    }
+
+
+
 }

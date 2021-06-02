@@ -19,7 +19,11 @@ public class Job_positions {
     @Column(name="is_active")
     private boolean is_active;
 
-    public void Job_positions(){}
+    public Job_positions() {
+
+    }
+
+
 
     public Job_positions(int id, String jop_name, boolean is_active) {
         this.id = id;

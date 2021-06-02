@@ -46,7 +46,10 @@ public class Job_seekers {
         this.national_identity_id = national_identity_id;
     }
 
+    public Job_seekers() {
 
-    public void Job_seekers() {
     }
+
+
+
 }

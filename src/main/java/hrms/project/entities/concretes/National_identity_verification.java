@@ -26,7 +26,10 @@ public class National_identity_verification {
         this.national_identity = national_identity;
     }
 
+    public National_identity_verification() {
 
-    public void National_identity_verification() {
     }
+
+
+
 }

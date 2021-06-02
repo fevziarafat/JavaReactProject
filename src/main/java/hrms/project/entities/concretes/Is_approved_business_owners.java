@@ -21,6 +21,8 @@ public class Is_approved_business_owners {
     @Column(name="is_approved")
     private boolean is_approved;
 
+
+
     public void Is_approved_business_owners(){}
 
     public Is_approved_business_owners(int id, int business_owners_id, int approved_per_id, boolean is_approved) {

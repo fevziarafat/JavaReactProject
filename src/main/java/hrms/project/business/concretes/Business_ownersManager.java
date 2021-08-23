@@ -23,10 +23,10 @@ public class Business_ownersManager implements Business_ownersService {
         return productDao.findAll();
     }
 
-    @Override
-    public Optional<Business_owners> findById(int Id) {
-        return productDao.findById(Id);
-    }
+//    @Override
+//    public Optional<Business_owners> findById(int Id) {
+//        return productDao.findById(Id);
+//    }
 
 
 }

@@ -7,5 +7,5 @@ import java.util.Optional;
 
 public interface Business_ownersService {
     List<Business_owners> getAll();
-    Optional<Business_owners> findById(int Id);
+//    Optional<Business_owners> findById(int Id);
 }

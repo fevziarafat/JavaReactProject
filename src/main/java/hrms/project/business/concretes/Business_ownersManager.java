@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class Business_ownersManager implements Business_ownersService {
@@ -21,4 +22,11 @@ public class Business_ownersManager implements Business_ownersService {
     public List<Business_owners> getAll() {
         return productDao.findAll();
     }
+
+    @Override
+    public Optional<Business_owners> findById(int Id) {
+        return productDao.findById(Id);
+    }
+
+
 }
